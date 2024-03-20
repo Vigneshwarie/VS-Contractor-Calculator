@@ -30,11 +30,15 @@ public class MainActivity extends AppCompatActivity {
         calculateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                double taxPercent = 0.05;
                 String laborCnt = laborCntEditText.getText().toString();
                 String materialCnt = materialsCntEditText.getText().toString();
                 double subTotal = (Double.parseDouble(laborCnt) + Double.parseDouble(materialCnt));
-                String outputStr = String.format("%.2f",subTotal);
+                double calculatedTax = (subTotal*taxPercent);
+                String outputStr = String.format("%.2f", subTotal);
+                String taxStr = String.format("%.2f", calculatedTax);
                 readonlyOutputSubTotal.setText(outputStr);
+                readonlyOutputTax.setText(taxStr);
             }
         });
 
