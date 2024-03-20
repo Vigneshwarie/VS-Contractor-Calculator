@@ -35,10 +35,13 @@ public class MainActivity extends AppCompatActivity {
                 String materialCnt = materialsCntEditText.getText().toString();
                 double subTotal = (Double.parseDouble(laborCnt) + Double.parseDouble(materialCnt));
                 double calculatedTax = (subTotal*taxPercent);
+                double calculatedTotal = (subTotal + calculatedTax);
                 String outputStr = String.format("%.2f", subTotal);
                 String taxStr = String.format("%.2f", calculatedTax);
+                String totalStr = String.format("%.2f", calculatedTotal);
                 readonlyOutputSubTotal.setText(outputStr);
                 readonlyOutputTax.setText(taxStr);
+                readonlyOutputTotal.setText(totalStr);
             }
         });
 
