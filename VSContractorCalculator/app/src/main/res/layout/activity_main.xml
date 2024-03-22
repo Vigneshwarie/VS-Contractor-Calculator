@@ -17,17 +17,16 @@
         android:layout_gravity="center">
 
         <TextView
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_width="100dp"
             android:textStyle="bold"
             android:textSize="20sp"
             android:text="Labor:"
-            android:textAlignment="textEnd"
-            android:gravity="end" />
+            android:gravity="center_vertical|right" />
 
         <EditText
             android:id="@+id/laborCntEditText"
-            android:layout_width="match_parent"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:padding="20dp"
             android:hint="Enter Labor Count"
@@ -43,17 +42,17 @@
             android:layout_gravity="center">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="20sp"
             android:text="Materials:"
-            android:textAlignment="textEnd"
-            android:gravity="end" />
+            android:gravity="center_vertical|right"
+         />
 
         <EditText
             android:id="@+id/materialsCntEditText"
-            android:layout_width="match_parent"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:padding="20dp"
             android:hint="Enter Materials Count"
@@ -90,13 +89,12 @@
         android:layout_gravity="center">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="20sp"
             android:text="SubTotal:"
-            android:textAlignment="viewEnd"
-            android:gravity="end" />
+            android:gravity="center_vertical|right" />
 
         <TextView
             android:id="@+id/readonlyOutputSubTotal"
@@ -118,12 +116,12 @@
         android:layout_gravity="center">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="20sp"
             android:text="Tax:"
-            android:gravity="center" />
+            android:gravity="center_vertical|right" />
 
         <TextView
             android:id="@+id/readonlyOutputTax"
@@ -145,12 +143,12 @@
         android:layout_gravity="center">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="20sp"
             android:text="Total:"
-            android:gravity="center" />
+            android:gravity="center_vertical|right" />
 
         <TextView
             android:id="@+id/readonlyOutputTotal"
