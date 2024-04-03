@@ -6,7 +6,7 @@ Contractor Calculator is a simple Android app that calculates the subTotal, Tax,
 
 ## Screenshots
 
-![alt text](public/images/VSCOnLoad.png)
+![alt text](public/images/VSCOnLoad.png) 
 
 ![alt text](public/images/VSCOnCalculate.png)
 
