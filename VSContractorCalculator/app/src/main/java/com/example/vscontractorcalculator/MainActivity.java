@@ -1,5 +1,4 @@
 package com.example.vscontractorcalculator;
-
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
@@ -44,8 +43,5 @@ public class MainActivity extends AppCompatActivity {
                 readonlyOutputTotal.setText(totalStr);
             }
         });
-
-
-
     }
 }
